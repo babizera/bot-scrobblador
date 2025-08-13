@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 from rich.console import Console
 from rich.style import Style
 
-# Cria o objeto Console do Rich
+
 console = Console()
 console.rule("[bold red]🎵 LAST.FM SCRUBBLER 🎵[/]", style="bold blue")
 
-# Carrega variáveis de ambiente
+
 load_dotenv()
 
 def load_config():
@@ -87,3 +87,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
