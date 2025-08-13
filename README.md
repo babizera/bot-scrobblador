@@ -18,3 +18,15 @@ Remember: Last.fm has a daily limit of 2,800 scrobbles. Exceeding this will trig
 
 ## How To Use :
 
+	1.	Clone this repository.
+	2.	Install all required dependencies by running:
+pip install -r requirements.txt
+
+    3.	Create a Last.fm API account at:
+https://www.last.fm/api/account/create
+
+	4.	Rename the file .env.example to .env and add your Last.fm API credentials:
+API_KEY=your_api_key
+API_SECRET=your_api_secret
+LASTFM_USERNAME=your_lastfm_username
+LASTFM_PASSWORD=your_lastfm_password
