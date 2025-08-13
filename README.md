@@ -10,16 +10,16 @@ Remember: Last.fm has a daily limit of 2,800 scrobbles. Exceeding this will trig
 
 ## Requirements :
 
-	•	Python
-	•	A Last.fm API account
+	   •	Python
+	   • A Last.fm API account
     •	Rich (For the effects console output)
-	•	dotenv (for environment variable management)
-	•	pylast (Last.fm API wrapper)
+	   •	dotenv (for environment variable management)
+	   •	pylast (Last.fm API wrapper)
 
 ## How To Use :
 
-	1.	Clone this repository.
-	2.	Install all required dependencies by running:
+	   1.	Clone this repository.
+	   2.	Install all required dependencies by running:
 pip install -r requirements.txt
 
     3.	Create a Last.fm API account at:
@@ -32,5 +32,8 @@ LASTFM_USERNAME=your_lastfm_username
 LASTFM_PASSWORD=your_lastfm_password
 
     5.	Open the config.json file and replace the song details.
-	•	Set the scrobble limit (LIMIT).
-	•	Set the interval between scrobbles (INTERVAL) in seconds.
+	   •	Set the scrobble limit (LIMIT).
+	   •	Set the interval between scrobbles (INTERVAL) in seconds.
+
+    6. Run The Script. 
+python main.py
