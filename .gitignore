@@ -1,0 +1,31 @@
+#Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.whl
+
+#virtual ambience
+venv/
+env/
+ENV/
+.venv/
+
+#Configuration files
+config.ini
+
+#log files
+scrobble.log
+
+#IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#operating system
+.DS_Store
+Thumbs.db
