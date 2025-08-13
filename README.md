@@ -6,7 +6,15 @@ Bot-Scrobblador is an automatic scrobbler that lets you log (“scrobble”) you
 
 ## Attention
 
-Remember: Last.fm has a daily limit of 2,800 scrobbles. Exceeding this will trigger a “Rate Limit” error, blocking your access to the scrobble API for 24 hours.
+Remember: Last.fm has a daily limit of 2,800 scrobbles. Exceeding this will trigger a “Rate Limit” error, blocking your access to the scrobble API for 24 hours
 
-## How to Use Bot-Scroblador :
+## Requirements :
+
+	•	Python
+	•	A Last.fm API account
+    •	Rich (For the effects console output)
+	•	dotenv (for environment variable management)
+	•	pylast (Last.fm API wrapper)
+
+## How To Use :
 
